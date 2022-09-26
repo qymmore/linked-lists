@@ -11,6 +11,7 @@ class LinkedList {
 	constructor(headNode) {
 		this.HEAD = headNode
 		this.HEAD.nextNode = null
+		let length = 0
 	}
 	
 	//add new node to end of the list
